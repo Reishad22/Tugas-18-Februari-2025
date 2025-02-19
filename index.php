@@ -3,13 +3,18 @@
     <Body>
         <form action="proses.php" method="post">
             <div>
-            Nama: <br>
+            Nama Lengkap: <br>
                 <input type="text" name="nama"/>
             </div>
             <div>
             Alamat: <br>
                 <input type="text" name="alamat"/>
             </div>
+            <div>
+            Email: <br>
+                <input type="text" name="email"/>
+            </div>
+            <button type="submit"> Kirim </button>
             <div>
             No. Telepon: <br>
                 <input type="text" name="phone"/>
